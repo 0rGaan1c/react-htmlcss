@@ -1,0 +1,53 @@
+form > input {
+  padding: 4px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 3px solid black;
+  height: 45px;
+  width: 280px;
+}
+
+form > button {
+  background-color: #282828;
+  width: 150px;
+  height: 45px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  border: none;
+  margin-left: 10px;
+}
+
+form > p {
+  font-size: 12px;
+  color: white;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #888888;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #888888;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #888888;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #888888;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}

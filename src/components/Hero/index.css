@@ -1,0 +1,29 @@
+.header {
+  padding: 80px 10% 60px 10%;
+  background-color: #ffcd9e;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__left {
+  width: 45%;
+}
+
+.header__left > h1 {
+  font-weight: 700;
+}
+
+.header__left > p {
+  margin: 30px auto;
+  line-height: 160%;
+}
+
+.header__left .info {
+  color: #484848;
+  font-weight: 500;
+  padding-right: 156px;
+}
+
+.para_bold {
+  font-weight: 700;
+}
